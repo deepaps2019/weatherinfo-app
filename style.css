@@ -212,9 +212,7 @@ body{
     .main-container {
         width: 100%;
     }
-    .item-container{
-        gap=20px
-  }
+
   @media screen and (min-width: 400px) {
    .humidity-wind-container{
         flex-direction: column;
@@ -225,6 +223,9 @@ body{
         height: 60vh;
         
     }
+   .item-container{
+        gap=20px;
+      }
   }
 
   .forecast-weather{
