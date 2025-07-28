@@ -212,6 +212,8 @@ body{
     .main-container {
         width: 100%;
     }
+    .item-container{
+        gap=20px
   }
   @media screen and (min-width: 400px) {
    .humidity-wind-container{
@@ -220,7 +222,8 @@ body{
         align-items: center;
    }
     .main-container {
-        height: 100vh;
+        height: 60vh;
+        
     }
   }
 
