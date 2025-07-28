@@ -20,9 +20,9 @@ body{
     width:90%;
     max-width: 470px;
     border-radius: 20px;
-    /* padding-bottom: 25px; */
     padding: 1rem;
-    height: auto;
+    height:100vh;
+    max-height:60vh;
     display: flex;
     justify-content: center;
     align-items: start;
