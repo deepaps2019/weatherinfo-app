@@ -17,11 +17,10 @@ body{
 .main-container{
     background:linear-gradient(to bottom right, rgba(102, 226, 129, 0.979), rgb(5, 7, 141));
     width:100%;
-    max-width: 400px;
+    max-width: 470px;
     border-radius: 20px;
-    /* padding-bottom: 25px; */
-    padding: 1rem;
-    height: auto;
+    margin:100px auto 0;
+    padding:40px 35px;
 }
 .item-container{
     padding: 1rem;
