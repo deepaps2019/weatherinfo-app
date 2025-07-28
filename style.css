@@ -17,7 +17,7 @@ body{
 .main-container{
     background:linear-gradient(to bottom right, rgba(102, 226, 129, 0.979), rgb(5, 7, 141));
     width:100%;
-    max-width: 40%;
+    max-width: 400px;
     border-radius: 20px;
     /* padding-bottom: 25px; */
     padding: 1rem;
