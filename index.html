@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script  src="script.js" defer></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="item-comtainer">
+            <label for ="city" class="labelcity">Enter City Name</label>
+            <div class="user-inputcontainer">
+                <!-- <input type="text" class="user-input" placeholder="Enter City"> -->
+               <input type="text" id="city" class="user-input" name="city" placeholder="Enter city name..." autocomplete="address-level2">
+                <button class="btnSearch" type="button" aria-label="Search city">
+                    <img src="images/icons8-search-30.png" alt="search-icon">
+                </button>
+                <p id="check-cty">City not found. Please try again.</p>
+            </div>
+            <div class="details">
+                <div class="cloudimage-container">
+                    <img class="weather-icon" src="images/sun.png" alt="weatherClear">
+                    <span id="sun-heat">
+                        <p id="heat">22°C</p>
+                        <p id ="Updatedcity">Udupi</p>
+                    </span>
+                </div>
+                <div class="humidity-wind-container">
+                    <div class="humidity-container">
+                        <img  src="images/humidity.png" alt="humidity">
+                        <span class="hw">
+                            <p id="humidityper">53%</p>
+                            <p id="humidity">Humidity</p>
+                        </span>
+                    </div> 
+                    <div class="wind-container">
+                        <img src="images/wind_icon.png" alt="wind">
+                        <span id="winddet">
+                            <p id="kmh">5.66 km/h</p>
+                            <p id="speed">Wind Speed</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="forecast-weather">
+                    <button  type="button" class="btnforecast">View 5 Days forecast</button>
+                </div>
+             </div>
+        </div>
+    </div>
+    <!-- <script src="script.js"></script> -->
+     
+</body>
+</html>
