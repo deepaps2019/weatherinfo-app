@@ -22,10 +22,6 @@ body{
     /* padding-bottom: 25px; */
     padding: 1rem;
     height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    border: 1px solid red;
 }
 .item-container{
     padding: 1rem;
